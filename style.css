@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+}
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+#card h2{
+    text-align: center;
+    margin: 10px 0;
+}
+#card h4{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+#card button{
+    background-color: cadetblue;
+    justify-content: center;
+    margin: 10px 0;
+    color: white;
+    font-weight: 900;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#card #remove{
+    background-color: #dadada;
+    color: black;
+    margin: 10px;
+}
+
+
+
+
+#card2{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px ;
+}
+#card2 img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+#card2 h2{
+    text-align: center;
+    margin: 10px 0;
+}
+#card2 h5{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+
+#card2 button{
+    margin-left:68px;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
